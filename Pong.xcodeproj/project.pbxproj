@@ -18,6 +18,8 @@
 		45F9F8D9272C97C60096BED2 /* PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9F8D8272C97C60096BED2 /* PongTests.swift */; };
 		45F9F8E3272C97C60096BED2 /* PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9F8E2272C97C60096BED2 /* PongUITests.swift */; };
 		45F9F8E5272C97C60096BED2 /* PongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9F8E4272C97C60096BED2 /* PongUITestsLaunchTests.swift */; };
+		45F9F8F2272C97F90096BED2 /* Elfboyclassic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45F9F8F1272C97F90096BED2 /* Elfboyclassic.ttf */; };
+		45F9F8F5272CC32C0096BED2 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9F8F4272CC32C0096BED2 /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		45F9F8DE272C97C60096BED2 /* PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F9F8E2272C97C60096BED2 /* PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongUITests.swift; sourceTree = "<group>"; };
 		45F9F8E4272C97C60096BED2 /* PongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45F9F8F1272C97F90096BED2 /* Elfboyclassic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Elfboyclassic.ttf; sourceTree = "<group>"; };
+		45F9F8F3272C98890096BED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		45F9F8F4272CC32C0096BED2 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +107,15 @@
 		45F9F8BD272C97C20096BED2 /* Pong */ = {
 			isa = PBXGroup;
 			children = (
+				45F9F8F3272C98890096BED2 /* Info.plist */,
+				45F9F8F1272C97F90096BED2 /* Elfboyclassic.ttf */,
 				45F9F8BE272C97C20096BED2 /* AppDelegate.swift */,
 				45F9F8C0272C97C20096BED2 /* GameScene.sks */,
 				45F9F8C2272C97C20096BED2 /* Actions.sks */,
 				45F9F8C4272C97C20096BED2 /* GameScene.swift */,
 				45F9F8C6272C97C20096BED2 /* GameViewController.swift */,
 				45F9F8C8272C97C20096BED2 /* Main.storyboard */,
+				45F9F8F4272CC32C0096BED2 /* MenuVC.swift */,
 				45F9F8CB272C97C60096BED2 /* Assets.xcassets */,
 				45F9F8CD272C97C60096BED2 /* LaunchScreen.storyboard */,
 			);
@@ -237,6 +245,7 @@
 			files = (
 				45F9F8CA272C97C20096BED2 /* Main.storyboard in Resources */,
 				45F9F8C1272C97C20096BED2 /* GameScene.sks in Resources */,
+				45F9F8F2272C97F90096BED2 /* Elfboyclassic.ttf in Resources */,
 				45F9F8CC272C97C60096BED2 /* Assets.xcassets in Resources */,
 				45F9F8CF272C97C60096BED2 /* LaunchScreen.storyboard in Resources */,
 				45F9F8C3272C97C20096BED2 /* Actions.sks in Resources */,
@@ -265,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45F9F8C5272C97C20096BED2 /* GameScene.swift in Sources */,
+				45F9F8F5272CC32C0096BED2 /* MenuVC.swift in Sources */,
 				45F9F8C7272C97C20096BED2 /* GameViewController.swift in Sources */,
 				45F9F8BF272C97C20096BED2 /* AppDelegate.swift in Sources */,
 			);
@@ -447,6 +457,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8926F8F574;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pong/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pong;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -475,6 +487,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8926F8F574;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pong/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pong;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
